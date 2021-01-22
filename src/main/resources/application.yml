@@ -1,0 +1,12 @@
+
+spring:
+  datasource:
+    name: dev
+    url: jdbc:oracle:thin:@WIN-PLMKF:1521:agile9
+    username: agileplus
+    password: agileplus
+    driver-class-name: oracle.jdbc.OracleDriver
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.hand.junshi.bean
